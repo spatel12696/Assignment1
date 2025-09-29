@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/app_background</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/app_text</item>
+        <item name="android:textColorSecondary">@color/app_text</item>
+
+        <!-- Material3 color overrides -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryContainer">@color/card_bg</item>
+        <item name="colorOnPrimary">@color/app_text</item>
+
+        <!-- CardView background -->
+        <item name="materialCardViewStyle">@style/CustomCardView</item>
+    </style>
+
+    <style name="Theme.Assignment1" parent="Base.Theme.Assignment1" />
+
+    <!-- Custom style for cards -->
+    <style name="CustomCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+    </style>
+</resources>
